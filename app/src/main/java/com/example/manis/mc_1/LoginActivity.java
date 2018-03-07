@@ -5,7 +5,7 @@ import android.os.Bundle;
 
 //login page has been conncted with database
 public class LoginActivity extends AppCompatActivity {
-    /* Changes Made*/
+    /* Changes Made Changes Made again*/
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
