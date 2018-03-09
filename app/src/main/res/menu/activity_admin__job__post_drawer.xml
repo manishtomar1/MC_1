@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/action_bar_admin_job_posts"
+            android:icon="@drawable/ic_menu_job_post"
+            android:title="Job Posts" />
+        <item
+            android:id="@+id/action_bar_post_a_job_admin"
+            android:icon="@drawable/ic_edit_black_36dp"
+            android:title="Post a new Job" />
+        <item
+            android:id="@+id/action_bar_admin_manage"
+            android:icon="@drawable/ic_people_black_36dp"
+            android:title="Manage" />
+        <item
+            android:id="@+id/action_bar_admin_statistics"
+            android:icon="@drawable/ic_pie_chart_black_36dp"
+            android:title="Statistics" />
+        <item
+            android:id="@+id/action_bar_admin_communication"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Communications" />
+
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_manage"
+                android:icon="@drawable/ic_menu_log_out"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

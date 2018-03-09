@@ -6,4 +6,32 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+    <string name="text_view_str_PostJob">Post a New Job Opening</string>
+    <string name="text_view_str_Company_Details">Company Details</string>
+    <string name="title_activity_admin__job__post">Activity Title</string>
+    <string name="text_view_str_CompanyName">Company Name:*</string>
+    <string name="text_view_str_ProfileType">Profile Type:</string>
+    <string name="text_view_str_Designation">Designation:</string>
+    <string name="text_view_str_Pay">Pay:</string>
+    <string name="text_view_str_EventDate">Event Date:</string>
+    <string name="text_view_str_LastDate">Last Date to Apply:*</string>
+    <string name="text_view_str_Description">Description</string>
+    <string name="text_view_str_Selection_Criteria">Selection Criteria:</string>
+    <string name="text_view_str_Degree">Degree:*</string>
+    <string name="text_view_str_CGPARequired">Min. CGPA Required:*</string>
+    <string name="text_view_str_Other">Other Criteria:</string>
+    <string name="button_str_Post">Post</string>
+    <string name="button_str_Cancel">Cancel</string>
+    <string name="text_view_str_Location">Location:*</string>
+    <string name="required">This field is required!</string>
+
+    <string-array name="Degrees">
+        <item>B.Tech</item>
+        <item>M.Tech</item>
+        <item>Ph.D</item>
+        <item>All</item>
+    </string-array>
+    <string name="button_str_chooseDegree">Choose Degrees</string>
+    <string name="title_activity_admin_job_posts">AdminJobPosts</string>
+
 </resources>
