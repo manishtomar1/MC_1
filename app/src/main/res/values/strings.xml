@@ -1,6 +1,5 @@
 <resources>
-    <string name="app_name"></string>
-    <!--<string name="app_name">CampusPlacement</string>-->
+    <string name="app_name">CampusPlacement</string>
     <string name="college_name">IIIT Delhi</string>
     <string name="campus_placement">Campus Placement</string>
     <string name="username">Username</string>
@@ -31,6 +30,7 @@
     <string name="button_str_Cancel">Cancel</string>
     <string name="text_view_str_Location">Location:*</string>
     <string name="required">This field is required!</string>
+    <string name="Tab_Item_All_students">All Students</string>
 
     <string-array name="Degrees">
         <item>B.Tech</item>
@@ -38,6 +38,25 @@
         <item>Ph.D</item>
         <item>All</item>
     </string-array>
+
+
+    <string-array name="Branch">
+        <item>CSE</item>
+        <item>ECE</item>
+        <item>CB</item>
+        <item>All</item>
+    </string-array>
+
+    <string-array name="Boolean_Yes_No">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+    <string-array name="Gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
     <string name="button_str_chooseDegree">Choose Degrees</string>
     <string name="title_activity_admin_job_posts">AdminJobPosts</string>
     <string name="title_activity_manage_admin">Manage_admin</string>
@@ -45,5 +64,10 @@
     <string name="tab_text_2">Tab 2</string>
     <string name="tab_text_3">Tab 3</string>
     <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_manage__admin">Manage_Admin</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_temp">tempActivity</string>
 
 </resources>
