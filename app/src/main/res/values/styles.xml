@@ -17,4 +17,8 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+    <style name="AppTheme.ProgressBarColor">
+        <item name="colorAccent">#e0e0e0</item> <!-- Whatever color you want-->
+    </style>
+
 </resources>
