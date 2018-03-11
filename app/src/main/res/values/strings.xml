@@ -69,5 +69,8 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_temp">tempActivity</string>
+    <string name="forgotPasswordText">Enter your email address and we will send you a link to reset your password</string>
+    <string name="registered_email_address">Registered email address</string>
+    <string name="reset_password">Reset password</string>
 
 </resources>
