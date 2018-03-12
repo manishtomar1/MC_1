@@ -2,9 +2,74 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.manis.mc_1.Requests_fragment">
+    tools:context="com.example.manis.mc_1.Individual_fragment">
 
     <!-- TODO: Update blank fragment layout -->
 
+
+    <TextView
+        android:id="@+id/batch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="80dp"
+        android:text="Batch : " />
+
+    <EditText
+        android:id="@+id/individual_search_batch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="70dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Year"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/search_by"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="120dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search by :" />
+
+    <Spinner
+        android:id="@+id/spinner_searchby"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="110dp" />
+
+    <EditText
+        android:id="@+id/search_by_edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="150dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter Name or Roll no"
+        android:text="@string/individual_search_searchby" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="210dp"
+        android:text="search" />
+
+    <TextView
+        android:id="@+id/search_student"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp"
+        android:backgroundTint="@color/common_google_signin_btn_text_dark_focused"
+        android:text="Search Student"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
 </FrameLayout>
