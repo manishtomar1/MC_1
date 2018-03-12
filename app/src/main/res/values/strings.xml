@@ -31,12 +31,18 @@
     <string name="text_view_str_Location">Location:*</string>
     <string name="required">This field is required!</string>
     <string name="Tab_Item_All_students">All Students</string>
+    <string name="individual_search_searchby"></string>
 
     <string-array name="Degrees">
         <item>B.Tech</item>
         <item>M.Tech</item>
         <item>Ph.D</item>
         <item>All</item>
+    </string-array>
+
+    <string-array name="Searchby">
+        <item>Roll no</item>
+        <item>Name</item>
     </string-array>
 
 
