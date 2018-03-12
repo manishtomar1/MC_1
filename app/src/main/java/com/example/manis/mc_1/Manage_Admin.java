@@ -26,7 +26,7 @@ public class Manage_Admin extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_manage__admin);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+//        setSupportActionBar(toolbar);
 
         Log.d("Mange_Admin","Manage Admin called");
 
