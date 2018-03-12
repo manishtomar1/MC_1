@@ -1,5 +1,6 @@
 package com.example.manis.mc_1;
 
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -8,6 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -24,7 +26,8 @@ public class LoginActivity extends AppCompatActivity {
     private Button mLoginbtn;
     private DatabaseReference mDatabase;
     private FirebaseAuth mAuth;
-    EditText username,password;
+    private EditText username,password;
+    private TextView forgotPassword;
     ProgressBar progressBarLogin;
 
     @Override
@@ -38,6 +41,7 @@ public class LoginActivity extends AppCompatActivity {
         username=(EditText) findViewById(R.id.editText_username);
         password=(EditText) findViewById(R.id.editText_password);
         progressBarLogin =(ProgressBar) findViewById(R.id.progressBar_login);
+        forgotPassword=(TextView) findViewById(R.id.textView_forgotPassword);
 
         mLoginbtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -78,6 +82,13 @@ public class LoginActivity extends AppCompatActivity {
                             Toast.makeText(getApplicationContext(),"Error :"+task.getException().getMessage(),Toast.LENGTH_LONG).show();
                     }
                 });
+            }
+        });
+
+        forgotPassword.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(LoginActivity.this,ForgotPasswordActivity.class));
             }
         });
 
